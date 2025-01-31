@@ -68,3 +68,96 @@ print (100 == 200)
 print(10 < 100 or 10 == 100)
 
 print(200 >= 100)
+
+
+age = 18
+
+if age >= 18:
+    print("You are eligible to vote.")
+
+
+    age = 10
+
+if age >= 18:
+    print("You are eligible to vote.")
+
+else:
+    print("YOu are not eligible to voten")
+
+
+num1 = 100
+num2 = 100
+
+if num1 > num2:
+    print('Num 1 is greater that Num 2')
+elif num1 == num2: 
+    print("Num 1 is equal to Num 2")
+else:
+    print('Num 2 is greater than Num 1')
+
+
+mark = 80
+
+if mark >= 90:
+    print("A")
+elif mark >= 80:
+    print("B")
+elif mark >= 70:
+    print("C")
+elif mark >= 60:
+    print('D')
+else:
+    print("F")
+
+
+n = 7
+
+if n % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+mark = 75 
+
+if mark >= 90:
+    print("A")
+elif mark >= 80:
+    print("B")
+elif mark >= 70:
+    print("C")
+elif mark >= 60:
+    print("D")
+else:
+    print("F")
+
+for i in range(10):
+    print("Hello World!")
+
+
+for i in range(1,25,3):
+    print(i * 2)
+    if i % 2 == 0:
+        print("Even",i)
+    else:
+        print("Odd", i)
+
+
+for i in range(1,5):
+    for j in range(1,5):
+        for k in range(1,5):
+            print(i+j)
+
+sum = 0
+for i in range(1,100):
+    sum = sum + i
+print(sum)
+
+for i in range(1,10):
+    print(i * i)
+
+n=0
+while(n<10):
+    print("Hellow World")
+    n = n + 1
+
+
