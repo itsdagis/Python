@@ -161,3 +161,38 @@ while(n<10):
     n = n + 1
 
 
+
+#def used to define a function def followed by name of function
+
+def add(x,y):
+    print(x+y)
+
+add(10,20)
+add(20,30)
+add(100,200)
+
+
+def add(x,y):
+    return(x+y)
+a = add(20,30)
+
+print(a)
+
+
+
+def checknumber(q,p):
+    if  q == p:
+        return q,p
+    else:
+	    return 0
+		
+def add(num1, num2):
+    e,f = checknumber(num1, num2)
+    z = e + f
+    return z
+
+def main(x,y):
+   a = add(x,y)
+   return a
+
+x=main(20,20)
